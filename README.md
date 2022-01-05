@@ -1,0 +1,6 @@
+# PETS-SWINF
+Millions of stray animals suffer on the streets or are euthanized in shelters every day around the world. It would be great if more stray animals can be adopted by caring people as their pets. In order to better adopt stray animals, scoring the pawpularity of stray animals is very important, but evaluating the pawpularity of animals is a very labor-intensive thing. In this study, we proposed a PETS-SWINF architecture, for prediction of the pawpularity from pets images with metadata. The proposed method win the gold medal in Kaggle competition called 2021 PetFinder.my (currently ranked 12/3393).
+
+The proposed method is a regression model, which can combines images with metadata. The way of assigning weight can adaptively use pictures or metadata. In addition, the metadata model can fuse low-order features and high-order features.  
+
+The proposed method can be widely used in image regression tasks with metadata, such as CTR (click-through rate prediction). As more and more stray animals are being labeled all around the world, larger datasets are being generated. We will continue to further modify the architecture of the proposed PETS-SWINF and incorporate new available datasets.
